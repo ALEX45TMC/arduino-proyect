@@ -1,0 +1,243 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Serif%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: "Noto Serif", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7ecf4] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#0d131c]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_6_319)">
+                  <path
+                    d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_6_319"><rect width="48" height="48" fill="white"></rect></clipPath>
+                </defs>
+              </svg>
+            </div>
+            <h2 class="text-[#0d131c] text-lg font-bold leading-tight tracking-[-0.015em]">OceanLife</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#0d131c] text-sm font-medium leading-normal" href="Home.html">Home</a>
+              <a class="text-[#0d131c] text-sm font-medium leading-normal" href="Species.html">Animals</a>
+              <a class="text-[#0d131c] text-sm font-medium leading-normal" href="Conservation.html">Conservation</a>
+              <a class="text-[#0d131c] text-sm font-medium leading-normal" href="Community.html">Community</a>
+              <a class="text-[#0d131c] text-sm font-medium leading-normal" href="#"></a>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#e7ecf4] text-[#0d131c] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#0d131c]" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#e7ecf4] text-[#0d131c] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#0d131c]" data-icon="UserCircle" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM74.08,197.5a64,64,0,0,1,107.84,0,87.83,87.83,0,0,1-107.84,0ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120Zm97.76,66.41a79.66,79.66,0,0,0-36.06-28.75,48,48,0,1,0-59.4,0,79.66,79.66,0,0,0-36.06,28.75,88,88,0,1,1,131.52,0Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#0d131c] tracking-light text-[32px] font-bold leading-tight min-w-72">Community Forum</p></div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <input
+                  placeholder="Search for topics"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0d131c] focus:outline-0 focus:ring-0 border border-[#ced9e8] bg-slate-50 focus:border-[#ced9e8] h-14 placeholder:text-[#496c9c] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <h2 class="text-[#0d131c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured Discussions</h2>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#0d131c] text-base font-bold leading-tight">Protecting Coral Reefs</p>
+                  <p class="text-[#496c9c] text-sm font-normal leading-normal">Discuss the impact of climate change on coral reefs and potential solutions.</p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAheYzdmUurHAdOUAq0c3zBAJz3WWKb2EPVFOB5xX_v4WjKuqtvRQ7tsGSb_3e_x5AQaFfgR7dk5XrjW2Mvw1fRL4nfP8sQJZVXrjQj2OTxyF5cDTinw2QfBBYH0ZyF16gkNrCsUPuNOPJM279fcE-IoqhuSvKCfSuF5hgjW24jsoYXSdkkZu-UW_1ZCg2hkzUsc56RgNRL1aWaZSk5zS6_iZRNR8dLUEPnn6VLnr_5xtj8W_AAZDxcppNWgDY10v2KqDcSGJe8L_8");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#0d131c] text-base font-bold leading-tight">Saving the Sea Turtles</p>
+                  <p class="text-[#496c9c] text-sm font-normal leading-normal">Share your thoughts on sea turtle conservation efforts and how to get involved.</p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCAHxMHo3PCqbKewKEcfRptP39KEMbmGF93YXONI_-fNNPTQMtktzj0Ex1ElSRmyDfjAvYwQX2fRANiLmjb8ijFVKPxTKkIyp_yiSHGEmpCuJ8iUK5rjzpr7_NenFM7AtlUF9Ux785FWwKfqlTZy85Kk7cRkjD59HcYrjwNbbY748BH-D_x2zMdhcNO8SrJqw5j5D4sfdWO-3S0su4G8RoX_YdVtiH_1snKLyFhqv5Od-Mc4weh2TeGUC8Qrk5Mh5m2tcWplVl66LY");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#0d131c] text-base font-bold leading-tight">Ocean Pollution</p>
+                  <p class="text-[#496c9c] text-sm font-normal leading-normal">Debate the causes and consequences of ocean pollution and what actions can be taken.</p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCnqjP8_TBfTiriHtgv8P_91P_0Yyc0c_VvWAF13opT3aSUfg-lbOmnx9ZiO4k-NPknhBQTbu0bDWwdnKCTw9W1jXvv_JweB63_HPCrVeBpD7dGAOPN8F6HIg41qI6kxmodq-YLAeZE00Tca8qDvbZm3wG4T6NAvEqxQxNiTpj15Drkhzl9KXO_8I0HA0sOpvtsgDvZpKoE3yqjIKlLQWSja5az0qdgHjAIn4fjT_3OluAMtd8SsipNE8M6ECTZH8L7O2ngYN5CQk4");'
+                ></div>
+              </div>
+            </div>
+            <h2 class="text-[#0d131c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Recent Posts</h2>
+            <div class="flex w-full flex-row items-start justify-start gap-3 p-4">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBfn0bmfgQcjWHPT_mLl8UKSlBOxuk4vOAsfO6zzJNIRauAHKBIvPoQo_Mvv26pzDtYSPKlx0pipcOtIfTeFq6RAlV9iEp0NIcyqvbTeTc1R_vugatw7ISZObkjqTsZ05jcQQQIZSwvQ0lmP0AdzODmXDc9tomxseVtwWtw20WkISXvA7HwJZLDzFP01hUbL1crbAp-X2O0RZ60dN_2KzmECyl3Dw98rohXgurT8U-fuG56ECdIjUWmfd5nkNyXtMpKaN1El2YxReU");'
+              ></div>
+              <div class="flex h-full flex-1 flex-col items-start justify-start">
+                <div class="flex w-full flex-row items-start justify-start gap-x-3">
+                  <p class="text-[#0d131c] text-sm font-bold leading-normal tracking-[0.015em]">Liam Carter</p>
+                  <p class="text-[#496c9c] text-sm font-normal leading-normal">2 hours ago</p>
+                </div>
+                <p class="text-[#0d131c] text-sm font-normal leading-normal">
+                  I recently visited the Great Barrier Reef and was shocked by the extent of coral bleaching. We need to act now to protect these vital ecosystems.
+                </p>
+                <div class="flex w-full flex-row items-center justify-start gap-9 pt-2">
+                  <div class="flex items-center gap-2">
+                    <div class="text-[#496c9c]" data-icon="ThumbsUp" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M234,80.12A24,24,0,0,0,216,72H160V56a40,40,0,0,0-40-40,8,8,0,0,0-7.16,4.42L75.06,96H32a16,16,0,0,0-16,16v88a16,16,0,0,0,16,16H204a24,24,0,0,0,23.82-21l12-96A24,24,0,0,0,234,80.12ZM32,112H72v88H32ZM223.94,97l-12,96a8,8,0,0,1-7.94,7H88V105.89l36.71-73.43A24,24,0,0,1,144,56V80a8,8,0,0,0,8,8h64a8,8,0,0,1,7.94,9Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#496c9c] text-sm font-normal leading-normal">15</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <div class="text-[#496c9c]" data-icon="ThumbsDown" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M239.82,157l-12-96A24,24,0,0,0,204,40H32A16,16,0,0,0,16,56v88a16,16,0,0,0,16,16H75.06l37.78,75.58A8,8,0,0,0,120,240a40,40,0,0,0,40-40V184h56a24,24,0,0,0,23.82-27ZM72,144H32V56H72Zm150,21.29a7.88,7.88,0,0,1-6,2.71H152a8,8,0,0,0-8,8v24a24,24,0,0,1-19.29,23.54L88,150.11V56H204a8,8,0,0,1,7.94,7l12,96A7.87,7.87,0,0,1,222,165.29Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#496c9c] text-sm font-normal leading-normal">2</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex w-full flex-row items-start justify-start gap-3 p-4">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA1EUQSyWxpEmZDNMXL89Dyh6fuAxpAvM3jDYnFMiyU8UM88sHxHieR50pab6V1ISUqOeP4WNaYBJGvsdUhuLjnxZ9tXy3X-xHNnPR5Fzys5KkkYrd7ZQTCaqLOvMQItQEhB05isJcrc7y6WnjapcNbHozp0KWALYqDhV7f1IXTNEXs76nWMp_Y0EnGfVU061s_aGIPvnUgqfLzr0PelMphBxw6VJwVLdPVL_N6CvVLttRZz8mAh21gNdgrIAtm5yDqc1fIkD1kqok");'
+              ></div>
+              <div class="flex h-full flex-1 flex-col items-start justify-start">
+                <div class="flex w-full flex-row items-start justify-start gap-x-3">
+                  <p class="text-[#0d131c] text-sm font-bold leading-normal tracking-[0.015em]">Sophia Bennett</p>
+                  <p class="text-[#496c9c] text-sm font-normal leading-normal">3 hours ago</p>
+                </div>
+                <p class="text-[#0d131c] text-sm font-normal leading-normal">
+                  Sea turtles are facing so many threats, from plastic pollution to habitat destruction. It's crucial to support organizations working to protect them.
+                </p>
+                <div class="flex w-full flex-row items-center justify-start gap-9 pt-2">
+                  <div class="flex items-center gap-2">
+                    <div class="text-[#496c9c]" data-icon="ThumbsUp" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M234,80.12A24,24,0,0,0,216,72H160V56a40,40,0,0,0-40-40,8,8,0,0,0-7.16,4.42L75.06,96H32a16,16,0,0,0-16,16v88a16,16,0,0,0,16,16H204a24,24,0,0,0,23.82-21l12-96A24,24,0,0,0,234,80.12ZM32,112H72v88H32ZM223.94,97l-12,96a8,8,0,0,1-7.94,7H88V105.89l36.71-73.43A24,24,0,0,1,144,56V80a8,8,0,0,0,8,8h64a8,8,0,0,1,7.94,9Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#496c9c] text-sm font-normal leading-normal">22</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <div class="text-[#496c9c]" data-icon="ThumbsDown" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M239.82,157l-12-96A24,24,0,0,0,204,40H32A16,16,0,0,0,16,56v88a16,16,0,0,0,16,16H75.06l37.78,75.58A8,8,0,0,0,120,240a40,40,0,0,0,40-40V184h56a24,24,0,0,0,23.82-27ZM72,144H32V56H72Zm150,21.29a7.88,7.88,0,0,1-6,2.71H152a8,8,0,0,0-8,8v24a24,24,0,0,1-19.29,23.54L88,150.11V56H204a8,8,0,0,1,7.94,7l12,96A7.87,7.87,0,0,1,222,165.29Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#496c9c] text-sm font-normal leading-normal">1</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex w-full flex-row items-start justify-start gap-3 p-4">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAq8MwaWgreqS0NiJTl2WU27tQkM0ueCaQeqZ_OWU62VfBbJA-xHaMiWj8_6WP1kbr39G-CoKhBGp9AoUZ_MPSTY7vf2O4mJPTV-5Gb6jXxgpPtsPCdy97nRuIq6_0hQt04LEH7sF0N97dcIcFWt1Tq7Deo4n17QUoBG1OURtgCKhZriOLi0_IYrjoLjvzMIdLejpsudPfMKdr8aVNDcQL28b1XC7smJobElokJWvUirGg7wPjPzSFt-KsONwtBjGQ1foZ1NSpwSXk");'
+              ></div>
+              <div class="flex h-full flex-1 flex-col items-start justify-start">
+                <div class="flex w-full flex-row items-start justify-start gap-x-3">
+                  <p class="text-[#0d131c] text-sm font-bold leading-normal tracking-[0.015em]">Ethan Harper</p>
+                  <p class="text-[#496c9c] text-sm font-normal leading-normal">4 hours ago</p>
+                </div>
+                <p class="text-[#0d131c] text-sm font-normal leading-normal">
+                  Ocean pollution is a global crisis. We need stricter regulations on industrial waste and more public awareness campaigns.
+                </p>
+                <div class="flex w-full flex-row items-center justify-start gap-9 pt-2">
+                  <div class="flex items-center gap-2">
+                    <div class="text-[#496c9c]" data-icon="ThumbsUp" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M234,80.12A24,24,0,0,0,216,72H160V56a40,40,0,0,0-40-40,8,8,0,0,0-7.16,4.42L75.06,96H32a16,16,0,0,0-16,16v88a16,16,0,0,0,16,16H204a24,24,0,0,0,23.82-21l12-96A24,24,0,0,0,234,80.12ZM32,112H72v88H32ZM223.94,97l-12,96a8,8,0,0,1-7.94,7H88V105.89l36.71-73.43A24,24,0,0,1,144,56V80a8,8,0,0,0,8,8h64a8,8,0,0,1,7.94,9Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#496c9c] text-sm font-normal leading-normal">18</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <div class="text-[#496c9c]" data-icon="ThumbsDown" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M239.82,157l-12-96A24,24,0,0,0,204,40H32A16,16,0,0,0,16,56v88a16,16,0,0,0,16,16H75.06l37.78,75.58A8,8,0,0,0,120,240a40,40,0,0,0,40-40V184h56a24,24,0,0,0,23.82-27ZM72,144H32V56H72Zm150,21.29a7.88,7.88,0,0,1-6,2.71H152a8,8,0,0,0-8,8v24a24,24,0,0,1-19.29,23.54L88,150.11V56H204a8,8,0,0,1,7.94,7l12,96A7.87,7.87,0,0,1,222,165.29Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#496c9c] text-sm font-normal leading-normal">3</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex px-4 py-3 justify-center">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#247af3] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Start a New Discussion</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
